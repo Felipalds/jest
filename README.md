@@ -20,6 +20,18 @@ module.exports = {
 
 ```
 
+## Aplicações testáveis
+### Desacoplamento
+- código independente
+- pensar em tabelas e domínios
+- domain expert (cliente traz as entidades)
+
+### Manter teste próximo ao código
+- escrever ao lado do código principal
+
+### Diagramas de casos de uso
+- atores (entidades)
+- diagramas de casos de uso (use-cases ou services)
 ## Primeiro teste:
 No arquivo src/sum.ts, vamos fazer uma função de soma <br>
 Dentro da pasta src/tests, vamos colocar todos os nossos arquivos de teste. Cada arquivo terá seus próprios testes. A sintaxe é a seguinte: <br>
